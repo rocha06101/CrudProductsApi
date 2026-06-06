@@ -1,4 +1,4 @@
-@CrudProductsApi_HostAddress = http://localhost:5000
+@CrudProductsApi_HostAddress = http://localhost:5330
 
 GET {{CrudProductsApi_HostAddress}}/
 Accept: application/json
