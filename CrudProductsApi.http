@@ -8,6 +8,8 @@ Accept: application/json
 GET {{CrudProductsApi_HostAddress}}/health
 Accept: application/json
 
+###
+
 GET {{CrudProductsApi_HostAddress}}/produtos
 Accept: application/json
 
@@ -21,7 +23,6 @@ Accept: application/json
 GET {{CrudProductsApi_HostAddress}}/produtos/999
 Accept: application/json
 
-
 ###
 
 POST {{CrudProductsApi_HostAddress}}/produtos
@@ -30,8 +31,7 @@ Accept: application/json
 
 {
   "nome": "Webcam Full HD",
-  "preco": 199.90,
-  "quantidadeEmEstoque": 8
+  "preco": 199.90
 }
 
 ###
@@ -42,6 +42,21 @@ Accept: application/json
 
 {
   "nome": "",
-  "preco": 0,
-  "quantidadeEmEstoque": -1
+  "preco": 0
 }
+
+###
+
+PUT {{CrudProductsApi_HostAddress}}/produtos/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nome": "Mouse sem fio atualizado",
+  "preco": 99.90
+}
+
+###
+
+DELETE {{CrudProductsApi_HostAddress}}/produtos/1
+Accept: application/json

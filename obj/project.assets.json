@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rocha06100/Área de trabalho/felipin/CrudProductsApi/CrudProductsApi.csproj",
+      "projectUniqueName": "/home/rocha06100/Área de trabalho/CrudProductsApi/CrudProductsApi.csproj",
       "projectName": "CrudProductsApi",
-      "projectPath": "/home/rocha06100/Área de trabalho/felipin/CrudProductsApi/CrudProductsApi.csproj",
+      "projectPath": "/home/rocha06100/Área de trabalho/CrudProductsApi/CrudProductsApi.csproj",
       "packagesPath": "/home/rocha06100/.nuget/packages/",
-      "outputPath": "/home/rocha06100/Área de trabalho/felipin/CrudProductsApi/obj/",
+      "outputPath": "/home/rocha06100/Área de trabalho/CrudProductsApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/rocha06100/.nuget/NuGet/NuGet.Config"
